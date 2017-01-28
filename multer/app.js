@@ -10,7 +10,7 @@ var  express = require('express')
     ,util= require('util')
     ,http = require('http')
     ,multer = require('multer')
-    ,upload = multer({ dest: '/home/lcom48/Documents/nodeRestApi/multer/' });
+    ,upload = multer({ dest: './multer' });
 
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies.
 app.use(bodyParser.json({limit: '5mb'}));
