@@ -9,7 +9,7 @@
 import UIKit
 
 class Fruit {
-    var name:String = ""
+    var name:String = " "
     var group:String = " "
     
     init(name: String, group: String){

@@ -9,10 +9,9 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-
     
     @IBOutlet var imageView: UIImageView!
-    var fruit : Fruit?
+    var fruit : Fruit!
     override func viewDidLoad() {
         super.viewDidLoad()
 

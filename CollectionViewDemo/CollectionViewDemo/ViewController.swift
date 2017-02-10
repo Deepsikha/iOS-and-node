@@ -61,7 +61,7 @@ class ViewController: UIViewController, UICollectionViewDataSource {
         }
         
         func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: identifier,for:indexPath) as! FruitCell
+            let cell:FruiCell = collectionView.dequeueReusableCell(withReuseIdentifier: identifier,for:indexPath) as! FruitCell
             
             let fruits: [Fruit] = dataSource.fruitsInGroup(indexPath.section)
             let fruit = fruits[indexPath.row]
